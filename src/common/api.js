@@ -5,7 +5,7 @@ export const API = axios.create({
 })
 API.interceptors.request.use(function (config) {
     // Set APPID on each request
-    config.params.APPID = 'd9947bfbe4d5f42fa39c0d5e08ff915f';
+    config.params.APPID = '56578f4a814090c206b5a73cf4441109';
     config.params.units = 'imperial';
     return config;
   }, function (error) {
